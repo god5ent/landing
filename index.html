@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-  <style>[x-cloak] {
-    display: none !important;
+  <style>
+    [x-cloak] {
+      display: none !important;}
+    .custom-img {
+      background-image: url("https://gorodokboxing.com/wp-content/uploads/2019/08/4.jpeg");
   }</style>
+
   <title>Los Santos</title>
 </head>
 <body>
@@ -61,16 +65,16 @@
       </div>
     </header>
     <main>
-      <div class="relative w-100">
-        <div class="absolute inset-0">
-          <img class="w-full h-full object-cover" src="https://gorodokboxing.com/wp-content/uploads/2019/08/4.jpeg"
-               alt="">
-          <div class="absolute inset-0 bg-yellow-800 mix-blend-multiply" aria-hidden="true"></div>
-        </div>
+
+
+      <div
+        class="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img"
+      >
         <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Прокат санок и</h1>
           <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">ватрушек</h1>
-          <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Проведите время на свежем воздухе всей семьей. Самый большой
+          <p class="mt-6 text-xl font-extrabold text-black max-w-3xl bg-white">Проведите время на свежем воздухе всей
+            семьей. Самый большой
             выбор зимней атрибутики в Лос Сантос</p>
           <button type="button"
                   class="mt-10 inline-flex items-center px-10 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
@@ -78,6 +82,8 @@
           </button>
         </div>
       </div>
+
+
       <div class="bg-white">
         <div
           class="max-w-7xl mx-auto divide-y divide-gray-200 lg:py-8 lg:flex lg:justify-center lg:divide-y-0 lg:divide-x"
@@ -91,7 +97,7 @@
               </svg>
               <div class="ml-4 flex-auto flex flex-col-reverse">
                 <h3 class="font-medium text-gray-900">24 часа в сути</h3>
-                <p class="text-sm text-gray-500">Работаем 110 дней в году</p>
+                <p class="text-sm text-black">Работаем 110 дней в году</p>
               </div>
             </div>
           </div>
@@ -118,7 +124,7 @@
                       d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"/>
               </svg>
               <div class="ml-4 flex-auto flex flex-col-reverse">
-                <h3 class="font-medium text-gray-900">До любой горки Сан Андреас</h3>
+                <h3 class="font-medium text-gray-900">до любой горки Сан Андреас</h3>
                 <p class="text-sm text-gray-500">Бесплатная доставка</p>
               </div>
             </div>
